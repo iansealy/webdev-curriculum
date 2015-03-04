@@ -15,7 +15,7 @@ You know a few __HTML__ tags, so it's time to make your first page! Let's get st
 
 ## Activity Checklist { .check}
 
-+ Open a text editor.
++ Open Notepad.
 + Open the `about_me.html` file. It contains only a little bit of HTML code to get you started, but you will write the rest yourself.
 
 # Step 2: Make a page about yourself { .activity}
@@ -28,7 +28,7 @@ Mistakes often happen. It's very easy to make them in HTML because you have to r
 
 + Let's pick the list of things we like as an example. One of the mistakes that happens often is forgetting the __closing tag__, so let's remove the `</ul>` to see how it affects the page. Save the file and refresh it in the browser.
 
-What happened? Some things below the list moved a little bit to the right. If you inspect the page with X-Ray Goggles you can see that things which followed the list now nest inside it, which is why they have moved to the right. After we removed the closing tag the browser simply doesn't know the list of items has ended.
+What happened? Some things below the list moved a little bit to the right. If you inspect the page with developer tools you can see that things which followed the list now nest inside it, which is why they have moved to the right. After we removed the closing tag the browser simply doesn't know the list of items has ended.
 
 + Add the closing `</ul>` tag back in and save it. Now when you refresh the page the rest of the tags aren't inside `<ul>` anymore.
 + Tags need to be spelt correctly for the browser to understand them. What would happen if we misspelt something?
@@ -114,13 +114,16 @@ If you simply copied the address of the web page from your browser and then sent
 
 Remember servers from the first session? Servers are computers that are always on and connected to the internet, and they are set up so people can visit websites that live on those computers.
 
-We will use __Cyberduck__ - it's a program for moving files from your computer to a server.
-
-+ Click `Open Connection`.
-+ Add the server name, user name and password as instructed by the Code Club volunteer.
-+ Click `Connect`. You will then see all the folders and files on the server - most likely the server will be empty, as you haven't added your files yet.
-+ Drag your website files from your computer into your server window. The uploading will begin.
-+ Once uploaded, you can visit your website at the address given to you by the Code Club volunteer.
++ Go to `webftp.dreamhost.com`.
++ Enter `highovercodeclub.org.uk` in the Host box.
++ Enter your username (which begins with `highover`) in the Login box.
++ Enter your password.
++ Click the green tick button.
++ Under `My Workspaces`, double click on `FTP Host`.
++ You will then see all the folders and files on the server.
++ Double click on the `www` folder, which is where your web pages should go.
++ Click on the Send button to upload a file from your computer to the server.
++ Once uploaded, you can visit your website at `www.highovercodeclub.org.uk`.
 
 ## Things to try { .try}
 

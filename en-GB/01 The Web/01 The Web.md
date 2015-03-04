@@ -15,13 +15,13 @@ Have you ever wondered how the world wide web works? Of course you have! Today y
 
 ## Activity Checklist { .check}
 
-+ Open a __text editor__.
++ Open Notepad.
 + Create a new document.
 + Write something! For example: `Hello! My name is …`
-+ Save the file. Call it `hello.txt`.
-+ Now find the file and open it again. It opens up in a text editor, which is not that much fun.
-+ Change the extension (the bit after the dot) to `.html`, so now the file is called `hello.html`.
-+ Open the file again.
++ Save the file. Call it `hello-xx.txt` (but change xx to your initials).
++ Now find the file and open it again. It opens up in Notepad again, which is not that much fun.
++ Go back to Notepad and save the file as `hello-xx.html` (again change xx to your initials).
++ Open the new file.
 
 What program was used to open the file this time? The web browser is a special program that knows how to interpret text files written using __HTML language__. We haven't added any __HTML__ yet, we simply put in some text, but the browser doesn't care! As long as you give it an `.html` file, it will do its best to show you the file as best as it can understand it.
 
@@ -64,16 +64,6 @@ It also has the opening tag: `<a>` and the closing tag: `</a>` but we added an a
 ## Activity Checklist { .check}
 
 + Open the `page.html` file.
-+ Ask the volunteer whether you can use X-Ray Goggles or developer tools to look at the code (a developer is someone who makes things with code).
-
-
-### If you can use X-Ray Goggles:
-
-+ Click on the X-Ray Goggles bookmarklet.
-+ Move your mouse around the page. You can see the parts of the page light up, and see what tags they are made of. You can click on each box to see the snippet of code the box is made of.
-
-### If you are using developer tools:
-
 + Move around the page. Right click anything interesting, and then click `Inspect element`. A panel will open up which will show you the page's code at the same time as the page.
 + Move your mouse over different pieces of code. The corresponding things on the page will be highlighted, so you can see which bit does what.
 + Try to inspect all parts of the page. Can you figure out what the different tag names stand for?
@@ -99,7 +89,7 @@ There are also some tags that we will always use in HTML documents, and they are
 + Notice how tags can __nest__ within one another. We have the `<a>` tag, which is inside a `<p>` tag, which in turn is inside `<div>`, which is placed inside `<body>`. Whenever this happens, we say that the tag that is being wrapped is the _child_ and the tag that does the wrapping is the __parent__ element. It's a little bit like a family tree!
 + To the browser all tags of the same kind are the same, but you can mark them out using classes and Ids (pronounced aye-dees). For example, some of your paragraphs might be introductions, so you could give them a class `introduction`. See if you can spot some classes inside `page.html` .
 + Ids are used to mark unique items on your page. See if you can spot the `div` tag with an `id` of `kitten` in the page.
-+ What will happen if you move things around? Let's go back to the code editor. Find an `<ol>` tag in the code and select it with all its got inside, like so:
++ What will happen if you move things around? Let's go back to Notepad. Find an `<ol>` tag in the code and select it with all its got inside, like so:
 
 ```{.language-markup}
 <ol>
@@ -118,4 +108,4 @@ Now copy it and move it somewhere else. Save the page and refresh it in the brow
 * Make a link that points to another part of the page (hint: it is something to do with id - look out for a link that takes you to the kitten).
 * Add your own headings where you think they might be useful. What happens if you change the heading numbers, for example from `<h3>` to `<h4>`?
 * What would you have to do to link to a different page?
-* If you are using developer tools, once you bring up the panel with the code try double-clicking on the code that looks interesting. See if you can change it. Now you get a live preview without having to move between the browser and the code editor. Cool, huh? Now refresh the page. What happened? When you edit code like this it doesn't get saved, so you can preview what would happen if you did, but don't mess up your file, so you can experiment lots and always go back.
+* If you are using developer tools, once you bring up the panel with the code try double-clicking on the code that looks interesting. See if you can change it. Now you get a live preview without having to move between the browser and Notepad. Cool, huh? Now refresh the page. What happened? When you edit code like this it doesn't get saved, so you can preview what would happen if you did, but don't mess up your file, so you can experiment lots and always go back.
