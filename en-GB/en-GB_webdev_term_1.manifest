@@ -47,6 +47,11 @@
         },
 
         {
+            "number":   2.5,
+            "filename": "02.5 Extra/02.5 Extra.md"
+        },
+
+        {
             "number":   3,
             "filename": "03 Missing Cat Website/03 Missing Cat Website.md",
             "materials": [
