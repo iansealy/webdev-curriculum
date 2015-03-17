@@ -16,7 +16,7 @@ Felix the cat has gone missing. His owner made a poster to hang up in the neighb
 #Step 1: { .activity}
 
 + Make a new folder called Felix.
-+ Make a new document called `index.html` and save it inside the folder called **Felix**.
++ Using Caret, make a new document called `index.html` and save it inside the folder called **Felix**.
 + Now set up your document like you learnt in the previous session.
 
 ```{.language-markup}
@@ -44,9 +44,9 @@ Felix the cat has gone missing. His owner made a poster to hang up in the neighb
 </html>
 ```
 
-#Step 2: { .activity}
+#Step 2: { .activity .new-page}
 
-We also need a picture of Felix, so people know what to look for. We’ve previously learned how to put in an image that’s already hosted somewhere on the internet, but this time we are going to use an image on our computer. We need to put the image **felix.jpg** in the same folder as our `index.html`, the folder you named **Felix**.
+We also need a picture of Felix, so people know what to look for. We’ve previously learned how to put in an image that’s already hosted somewhere on the internet, but this time we are going to use an image on our computer. We need to put the image **felix.jpg** in the same folder as our `index.html`, the folder you named **Felix**. You can download `felix.jpg` from [www.highovercodeclub.org.uk/htmlcss/week4/files/](http://www.highovercodeclub.org.uk/htmlcss/week4/files/).
 
 + Now, write the `<img>` tag like you would normally, but in the src attribute, instead of writing a URL we just write `felix.jpg`. And don’t forget to put in an alt attribute!
 
@@ -62,7 +62,7 @@ We also need a picture of Felix, so people know what to look for. We’ve previo
 <img src="felix.jpg" alt="picture of Felix" width="400">
 ```
 
-#Step 3: { .activity}
+#Step 3: { .activity .new-page}
 
 Underneath the picture we should write a description of Felix, and give some details of when and where he went missing. For this we can just write some paragraphs.
 
@@ -85,7 +85,7 @@ That’s just a pretend email address, but let’s make it so that if someone cl
 
 ## Save your document and check if it works in a browser! { .save}
 
-# Step 4: Adding strong text and emphasis { .activity}
+# Step 4: Adding strong text and emphasis { .activity .new-page}
 
 We really want people to find Felix, so we want to add some *emphasis* to ‘please’. We do this with the em tag.
 
@@ -103,7 +103,7 @@ We also want ‘thank you’ to stand out, which we can do by adding the strong 
 
 Notice how ‘please’ is now in *italics* and ‘thank you’ is **bold**?
 
-#Step 5: Comments { .activity}
+#Step 5: Comments { .activity .new-page}
 
 Sometimes it is useful to write comments in the HTML file itself. By comments we mean stuff that is meant for humans to read if they’re viewing the file, and not for the browser to read and display. We do that by using the special code:
 
@@ -117,7 +117,7 @@ Anything between the arrows is a comment. Let’s put a comment in our file sayi
 <!-- This is a Code Club project. Felix is not real and not really missing -->
 ```
 
-# Step 6: More metadata (that’s just stuff that goes in the head) { .activity}
+# Step 6: More metadata (that’s just stuff that goes in the head) { .activity .new-page}
 
 + Let’s add who wrote the webpage to the webpage, so anyone viewing the file knows it’s you.
 
@@ -152,6 +152,20 @@ And some keywords, separated by commas.
 ```
 
 ![screenshot](screenshot_jsbin.png)
+
+# Step 7: Put your page on the Web. { .activity .new-page}
+
++ Go to `webftp.dreamhost.com`.
++ Enter `highovercodeclub.org.uk` in the Host box.
++ Enter your username (which begins with `highover`) in the Login box.
++ Enter your password.
++ Click the green tick button.
++ Under `My Workspaces`, double click on `FTP Host`.
++ You will then see all the folders and files on the server.
++ Double click on the `www` folder, which is where your Web page should go.
++ Click on the Send button to upload a file from your computer to the server.
++ Remember to upload the image too.
++ Once uploaded, you can visit your website at `www.highovercodeclub.org.uk`.
 
 ##Further study: { .try}
 
